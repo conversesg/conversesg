@@ -1,6 +1,5 @@
 <?php get_header();  ?>	
 	<div id="container">
-    
 	<?php	
 		// Check if this is a post or page, if it has a thumbnail, and if it's a big one
 		/*if ( is_singular() && current_theme_supports( 'post-thumbnails' ) &&
