@@ -33,64 +33,16 @@
 											<?php //$productimage = get_field('productimage'); //foreach($productimage as $product){?>
 											
 													
-													
 													<div class="cs_article homeSliderWidth">
-															<?php
-																$video2src = get_bloginfo('url')."/wp-content/uploads/archive/videoshome/trapasso.mp4"; 
-																$video2srcwebm = get_bloginfo('url')."/wp-content/uploads/archive/videoshome/trapasso.webm"; 
-																$video2srcogv = get_bloginfo('url')."/wp-content/uploads/archive/videoshome/trapasso.ogv";
-															?>	
-															
-															<a href="<?php echo get_bloginfo('url'); ?>/technology"><!--https://www.youtube.com/watch?feature=player_embedded&v=mJvRJ37T9ZU-->
+															<a href="<?php echo get_bloginfo('url'); ?>/shoes/">
+																<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/converse/images/bannerHome3.jpg" title="Converse | The KA-ONE VULC Engineered for Destruction" alt="Converse | The KA-ONE VULC Engineered for Destruction"/>
+															</a>
+													</div><!-- End cs_article -->	
+                                                    
+													<div class="cs_article homeSliderWidth">
+															<a href="<?php echo get_bloginfo('url'); ?>/technology">
 																<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/converse/images/bannerHome2.jpg" title="Converse | The Trapasso Pro II Engineered for Destruction" alt="Converse | The Trapasso Pro II Engineered for Destruction"/>
 															</a>
-															<div style="display: none;">
-																<div id="videoFancyContent" class="videoFancyContent" style="width:422px;height:352px;">
-																	<div id="videoPlayArea2s" class="videoPlayArea2s">
-																		<video id="videosGalleryHome" class="video-js vjs-default-skin" controls preload="auto" width="422" height="352" data-setup="{}">
-																			<source type="video/mp4" src="<?php echo $video2src; ?>"/>
-																			<source type='video/webm' src="<?php echo $video2srcwebm; ?>" />
-																			<source type='video/ogg' src="<?php echo $video2srcogv; ?>" />
-																			<!--<track kind="captions" src="captions.vtt" srclang="en" label="English" />-->
-																		</video>
-																	</div>
-																</div>
-															</div>
-															
-															<script>
-																$(document).ready(function() {
-																	$("#videoFancy").fancybox({
-																	'padding'			: 5,
-																	//'width'			: 600,
-																	//'height'			: 700,
-																	'autoScale'			: true,
-																	'titleShow'			: false,
-																	'titlePosition'		: 'inside',//over
-																	'transitionIn'		: 'fade',//elastic
-																	'transitionOut'		: 'fade',
-																	'overlayShow'		: true,
-																	'overlayColor'		: '#000',
-																	'opacity'			: true,
-																	'overlayOpacity'	: 0.9,
-																	'showCloseButton'	: false,
-																	'showNavArrows' 	: false,
-																	'enableEscapeButton': false,
-																	'enableKeyboardNav' : false
-																	});
-																});
-															</script>
-														<!--<div class="sliderEventCaption">	
-															<div class="CaptionText">
-																2 June 2012 | 1-10PM | *Scape Skate Park
-															</div>
-															<div class="CaptionImage">
-																<img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/converse/images/title_home1.png" />
-															</div>
-															<div class="CaptionBg"></div>
-														</div>
-														<p>Hendrerit tincidunt vero vel eorum claritatem. Solutalegunt quod qui dolore typi. Vel dolore soluta qui odionon. Sollemnes minim eorum feugiat nihil nobis. Gothica	dolor in legentis nihil quinta.</p>
-														<p>Iriure parum autem putamus lectores duis. Quam sit quis	me me zzril. Facer etiam in lectores hendrerit etiam. Exerci lorem liber tincidunt nostrud decima. Mutationem	est zzril ipsum facer nobis.</p>
-														<a href="#" class="readmore">Read More</a>-->
 													</div><!-- End cs_article -->	
                                                     
                                                     <div class="cs_article homeSliderWidth secondBannerHomeImage">
