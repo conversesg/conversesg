@@ -31,7 +31,9 @@
 		$items = "event";
 		$counts = -1;
 		$orderby = "menu_order";
-		$pageTitle = "Event";
+		$pageTitle = "Current Events";
+		$pageTitle2 = "Past Events";
+		$newEventsArray = array(255,259,262,264,266,268);
 		$order = "ASC";
 	} else if(is_page(11)){
 		$items = "registration";
@@ -73,7 +75,7 @@
 
 <?php if ( have_posts() ) while ( have_posts() ) : the_post(); ?>
 				<div id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
-					<?php if ( /*is_front_page() &&*/ is_page() && !is_page(16) ) { ?>
+					<?php if ( /*is_front_page() &&*/ is_page() && !is_page(16)&& !is_page(22) ) { ?>
 						<h1 class="entry-title-page"><?php _e( $pageTitle, 'converse' ); ?></h1>
 						<?php $contentPage = get_the_content(); ?>
 					<?php } 
@@ -182,18 +184,22 @@
 							</div><!-- End contentslider -->	
 							
 					<?php } else if(is_page(22)){ ?>
+                    
+                    		<!-- Past event breadcrumbs -->
+                            <h1 class="entry-title-page"><?php _e( $pageTitle2, 'converse' ); ?></h1>
 							<div class="breadcrumbPage">
 								<ul class="subNavigation lowerNavigation"> 
 								<?php $i=0;  
-									while ($Cquery->have_posts()) { $Cquery->the_post(); $do_not_duplicate = $post->ID; $i++; ?>
+									while ($Cquery->have_posts()) { $Cquery->the_post(); $do_not_duplicate = $post->ID; $i++; if(! in_array($post->ID,$newEventsArray)){ ?>
 										<li class="<?php if( $_GET['id']==$post->ID){echo "activeLeftList";}else{echo "notActiveLeftList";} ?>">
 											<a href="<?php echo get_bloginfo('url');?>/event?id=<?php echo $post->ID; ?>#contentArea<?php echo $post->ID;?>" class='scroll' onclick="show_content('<?php echo $post->ID;?>')"><?php echo get('title_breadcrumb'); ?></a>
 										<span class="separatorMenu">/</span></li><?php
-									}
+									}}
 								?>
 								</ul>
-							</div>	
+							</div>	<!-- End Past event breadcrumbs -->
 							<div style="clear:left"></div>
+                            
 							<!--<div class="pagesContent">
 								<?php  //echo $contentPage; ?>
 							</div>-->
@@ -213,6 +219,7 @@
 									if (has_post_thumbnail($post->ID ) ){ 
 									$image = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'post-thumbnails' ); }
 									$image160 = get_bloginfo('url')."/wp-content/uploads/about.jpg";
+									if(! in_array($post->ID,$newEventsArray)){ 
 									?>		
 									<div class="eventContent">
 										 
@@ -243,7 +250,7 @@
 										</a>	
 									</div>	
 									<?php
-									}
+									}}
 							if ($i%4==0)
 								echo '</div><div style="clear:left"></div>';
 						if ($i%4!=0)
