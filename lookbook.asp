@@ -5,7 +5,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="description" content="Converse - The brand that inspires originality and celebrate those who disrupt the status quo for the next 100 years." />
 <meta name="keywords" content="converse, converse singapore, converse sg, converse shoes, converse malaysia, singapore converse, sneakers " />
-<title>Converse Singapore | Spring/Summer 2012</title>
+<title>Converse Singapore | Fall/Holiday 2012</title>
 <link href="../css/style.css" rel="stylesheet" type="text/css" />
 <link href="../css/print.css" rel="stylesheet" type="text/css" media="print" />
 <link href="../css/coda-slider-2.0-landscape.css" rel="stylesheet" type="text/css" media="screen" />
@@ -73,16 +73,9 @@
                     </div>
                 </div><!-- end of panel-images -->
                 <div class="panel-desc">
-                	<!--ul>
-                         <li><img src="../images/collection/fall2012/shirts.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/4110254LMI1.asp"><img src="../images/collection/fall2012/4110254LMI1.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/4110254LMI1.asp"><img src="../images/collection/fall2012/4110254LMI1_BLK.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/4110254LMI1.asp"><img src="../images/collection/fall2012/4110254LMI1_BLU.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/125223C.asp"><img src="../images/collection/fall2012/125223C.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/125224C.asp"><img src="../images/collection/fall2012/125224C.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/125228C.asp"><img src="../images/collection/fall2012/125228C.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/125234C.asp"><img src="../images/collection/fall2012/125234C.jpg" width="100" height="100" /></a></li>
-                    </ul-->
+                	<ul>
+                         <li><a href="../products/132822C.asp"><img src="../images/collection/fall2012/132822C_BLK.jpg" width="100" height="100" /></a></li>    
+                    </ul>
                     <div class="rollover">^ roll over to zoom image</div>
                 </div><!-- end of panel-desc -->
             </div>
@@ -115,13 +108,9 @@
                     </div>
                 </div><!-- end of panel-images -->
                 <div class="panel-desc">
-                	<!--ul>
-                        <li><a href="../products/4310043LMI1.asp"><img src="../images/collection/fall2012/4310043LMI1.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/4310043LMI1.asp"><img src="../images/collection/fall2012/4310043LMI1_BLU.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/129933C.asp"><img src="../images/collection/fall2012/129933C.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/129934C.asp"><img src="../images/collection/fall2012/129934C.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/129935C.asp"><img src="../images/collection/fall2012/129935C.jpg" width="100" height="100" /></a></li>
-                    </ul-->
+                	<ul>
+                         <li><a href="../products/129638C.asp"><img src="../images/collection/fall2012/129638C_BOW.jpg" width="100" height="100" /></a></li>    
+                    </ul>
                     <div class="rollover">^ roll over to zoom image</div>
                 </div><!-- end of panel-desc -->
             </div>
