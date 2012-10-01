@@ -301,15 +301,9 @@
                     </div>
                 </div><!-- end of panel-images -->
                 <div class="panel-desc">
-                	<!--ul>
-                    	
-                        <li><a href="../products/4310039LMI1.asp"><img src="../images/collection/fall2012/4310039LMI1.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/4310039LMI1.asp"><img src="../images/collection/fall2012/4310039LMI1_OLI.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/129933C.asp"><img src="../images/collection/fall2012/129933C.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/129950C.asp"><img src="../images/collection/fall2012/129950C.jpg" width="100" height="100" /></a></li>
-                        <li><a href="../products/130225C.asp"><img src="../images/collection/fall2012/130225C.jpg" width="100" height="100" /></a></li>
-                        
-                    </ul-->
+                	<ul>
+                    	<li><a href="../products/132822C.asp"><img src="../images/collection/fall2012/132822C_BLK.jpg" width="100" height="100" /></a></li>    
+                    </ul>
                     <div class="rollover">^ roll over to zoom image</div>
                 </div><!-- end of panel-desc -->
             </div>
