@@ -48,7 +48,9 @@
     <!-- product list -->
     <div id="product-main">
       <div class="slide"><ul id="portfolio">
-      
+      <li class="bags"><a rel="group" href="6110173LXI4.asp"><img src="../images/accessories/6110173LXI4.jpg"></a></li>
+      <li class="bags"><a rel="group" href="6210208LXI4.asp"><img src="../images/accessories/6210208LXI4.jpg"></a></li>
+      <li class="bags"><a rel="group" href="6110167LXI4.asp"><img src="../images/accessories/6110167LXI4.jpg"></a></li>
       <li class="bags"><a rel="group" href="6110141LXG4.asp"><img src="../images/accessories/6110141LXG4_BLK.jpg" /></a></li>
       <li class="bags"><a rel="group" href="6110164LXI3.asp"><img src="../images/accessories/6110164LXI3.jpg" /></a></li>
       <li class="pencilcase"><a rel="group" href="6710109LXI4.asp"><img src="../images/accessories/6710109LXI4.jpg" /></a></li>
