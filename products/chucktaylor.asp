@@ -38,7 +38,7 @@ $(document).ready(function() {
           <div id="slideshow">
             <div id="slidesContainer">
             <ul>
-            	<li><img src="../images/slide_seasonalcolours.jpg" width="915" height="360" /></li>
+            	<li><a href="../boots"><img src="../images/slide_boots_small.jpg" width="915" height="360" /></a></li>
             </ul>
             </div>
           </div>
@@ -48,7 +48,23 @@ $(document).ready(function() {
     <!-- product list -->
     <div id="product-main">
     <div class="slide"><ul class="paging">
-    <li><a rel="group" href="132303C.asp"><img src="../images/chucktaylor/132303C.jpg" width="200" height="150" /><br />
+    	<li><a rel="group" href="135251C.asp"><img src="../images/chucktaylor/135251C.jpg" width="200" height="150" /><br />
+        Chuck Taylor AS Hi</a></li>
+        <li><a rel="group" href="135252C.asp"><img src="../images/chucktaylor/135252C.jpg" width="200" height="150" /><br />
+        Chuck Taylor AS Hi</a></li> 
+        <li><a rel="group" href="135287C.asp"><img src="../images/chucktaylor/135287C.jpg" width="200" height="150" /><br />
+        Chuck Taylor AS Colors Hi</a></li>
+        <li><a rel="group" href="135288C.asp"><img src="../images/chucktaylor/135288C.jpg" width="200" height="150" /><br />
+        Chuck Taylor AS Colors Hi</a></li>
+        <li><a rel="group" href="135289C.asp"><img src="../images/chucktaylor/135289C.jpg" width="200" height="150" /><br />
+        Chuck Taylor AS Colors Hi</a></li>
+        <li><a rel="group" href="135290C.asp"><img src="../images/chucktaylor/135290C.jpg" width="200" height="150" /><br />
+        Chuck Taylor AS Colors Ox</a></li>
+        <li><a rel="group" href="135292C.asp"><img src="../images/chucktaylor/135292C.jpg" width="200" height="150" /><br />
+        Chuck Taylor AS Colors Ox</a></li>
+        <li><a rel="group" href="135291C.asp"><img src="../images/chucktaylor/135291C.jpg" width="200" height="150" /><br />
+        Chuck Taylor AS Seasonal Colors Ox</a></li>
+    	<li><a rel="group" href="132303C.asp"><img src="../images/chucktaylor/132303C.jpg" width="200" height="150" /><br />
         Chuck Taylor AS Fall Colors Ox</a></li>
         <li><a rel="group" href="132297C.asp"><img src="../images/chucktaylor/132297C.jpg" width="200" height="150" /><br />
         Chuck Taylor AS Fall Colors Ox</a></li>
@@ -165,7 +181,7 @@ $(document).ready(function() {
             <li><a href="johnvarvatos.asp">Converse by John Varvatos</a></li>
             <li><a href="marimekko.asp">Marimekko Collection</a></li>
             <li><a href="basketball.asp">Basketball</a></li>
-            <li><a href="http://converse.com.sg/skateboarding/shoes/">Skate</a></li>
+            <li><a href="skate.asp">Skate</a></li>
             <li><a href="starchevron.asp">Star Chevron</a></li>
             <li><a href="sandals.asp">Sandstar & Sandals</a></li>
             <li><a href="kids.asp">Kids</a></li>
