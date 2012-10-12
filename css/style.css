@@ -3,9 +3,7 @@ html, body, img { margin:0;	padding:0;	border:0; }
 body {
 	font:11px Arial, Helvetica, sans-serif;
 	color:black;
-	background: #000
-	
-	/*url(../images/html_bg_xmas4.jpg) no-repeat 50% 0 #000;*/
+	background:#000 url(../images/outsole-bg.jpg) repeat-y 50% 0;
 }
 
 p.hr {border-top:1px solid #989898;}
