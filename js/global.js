@@ -22,6 +22,7 @@ function popup(url)
 
 // when the DOM is ready...
 $(document).ready(function() {	
+	frameAnimate();
 	
 	//search - remove the watermark
 	$("#cse-search-box input[name=q]")
@@ -161,3 +162,11 @@ $(document).ready(function() {
 });
 
 //]]>
+
+
+/////////// featured item //////////////
+function frameAnimate(){
+	var AnimateSpeed=1500;
+	jQuery("#hist-white").animate({opacity: 0}, {duration: AnimateSpeed})
+        .animate({opacity: 1}, {duration: AnimateSpeed, complete: frameAnimate})
+}
