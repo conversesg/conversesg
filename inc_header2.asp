@@ -1,4 +1,4 @@
-<div id="header">
+<div id="header" style="position:absolute;z-index:99;left:50%;margin-left:-480px;">
 	<div id="header_logo">
     	<a href="http://www.converse.com.sg" title="Converse Singapore Homepage"><img src="../images/logo.jpg" /></a>
     </div>
@@ -54,4 +54,5 @@
   	</div>
     <!-- end of navigation -->
  	</div>
+    <a href="http://www.converse.com.sg/boots/" target="_blank" style="float:left;margin:0 0 0 33px;display:block;width:137px; height:124px;"><img src="../images/boot-hist-grey.png" style="position:absolute;" id="hist-grey" /><img src="../images/boot-hist-white.png" style="position:absolute;" id="hist-white" /></a>
 </div>
