@@ -7,7 +7,7 @@
     <!-- navigation -->
     <div id="navigation">
     	<ul>
-        <li><a href="http://blog.converse.com.sg">Blog</a></li>
+        <li><a href="http://www.facebook.com/conversesg" target="_blank">Facebook</a></li>
         <li>|</li>
         <li><a href="../aboutus.asp">About</a></li>
         <li>|</li>
